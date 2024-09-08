@@ -7,7 +7,6 @@ public class Numbergueesing{
             Random random = new Random();
 
             int numbertoguess = random.nextInt(100) + 1;
-            System.out.println(numbertoguess);
             int userGuess = 0;
             int numberofAttempts = 0;
             System.out.println("Welcome to Number gueesing game.");
